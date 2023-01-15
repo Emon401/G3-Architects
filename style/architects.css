@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+}
+/* header style  */
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.nav-title{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-h3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 228px;
+    margin-top: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 240px;
+    margin-top: 63px;
+}
+nav li{
+    margin-left: 80px;
+}
+.header-h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-top: 116px;
+}
+.header-p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 15px;
+    margin-bottom: 32px;
+}
+.btn-primary{
+    margin-left: 870px;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color:  #FF900E;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+.banner-img{
+    width: 1440px;
+    height: 700px;
+    margin-left : 240px;
+    margin-right: 240px;
+    /* padding-bottom: 45px; */
+}
+/* section style 1 */
+.section-1{
+    display:flex;
+    margin-left: 310px;
+    margin-right: 310px;
+
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin-top: 85px;
+    gap: 24px;
+    margin-right: 73px;
+    /* width: 342px;
+    height: 342px; */
+}
+.features{
+    margin-top: 287px;
+
+}
+.features-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.features-h3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.features-info{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+.btn{
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    margin-top: 32px;
+    border-radius: 5px;
+
+}
+/* section style -2 */
+.section-2{
+    
+    margin-top: 120px;
+    margin-left: 313px;
+   
+
+}
+.skill{
+   display: flex;
+   justify-content: space-between;
+}
+.skill img{
+    margin-right: 193px;
+    width: 800px;
+    height: 1059px;
+}
+.btn-skill{
+    margin-left: 30%;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: #FF900E;
+}
+.btn-h3{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding-top: 45px;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+.btn-p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 44px;
+}
+/* hr{
+    justify-items: left;
+} */
+.section-h3{
+   padding-top: 30px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+.section-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 67px;
+}
+.section-skill{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.skill-title{
+    border: 2px solid aliceblue;
+    padding-left: 33px;
+    padding-top: 42px;
+}
+/* section style 3 */
+.section-3{
+    margin-top: 148px;
+    margin-left: 240px;
+}
+.facts{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.parg{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    margin-right: 290px;
+    margin-left: 90px;
+}
+.logo{
+   border: 1px solid #FF900E;
+   width: 240px;
+   height: 240px;
+   border-radius: 10px;
+}
+.logo img{ 
+   margin-left: 40%;
+    margin-top: 45px;
+}
+.icon-h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #424242;
+}
+.icon-p{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #727272;
+    margin-top: 5px;
+}
+
+/* section style 4 */
+.section-4{
+    text-align: center;
+    margin-bottom: 130px;
+    margin-top: 180px;
+}
+.Sponsors-h3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+} 
+.Sponsors-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+.link{
+    display: flex;
+   justify-content: center;
+   gap: 156px;
+}
+/* footer style  */
+.footer{
+    background-color: antiquewhite;
+    justify-content: center;
+    width: 1440px;
+    height: 100px;
+    margin-left: 240px;
+    margin-bottom: 216px;
+}
+.footer-p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    padding-top: 39px;
+}
